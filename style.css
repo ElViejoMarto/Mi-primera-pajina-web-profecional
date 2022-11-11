@@ -1,0 +1,78 @@
+body{
+text-align: center;
+padding-top: 50px;
+margin: 10px;
+}
+.p{
+   border-radius: 50px; 
+   
+}
+#INICIO{
+ position:relative;
+ bottom: 0;
+ background: linear-gradient(#4AD51E 0%, #30BBE3 100% );
+ display: table;
+ width: 100%;
+ height:100%;
+}
+#name{
+   font-size: 50px;
+   font-family: fantasy;
+}
+h2{
+   font-size: 30px;
+   font-weight: 300;
+   font-family: monospace;
+}
+#b{
+   font-family: 'Josefin Sans', sans-serif;
+   padding: 50px;
+}
+.line{
+   height: 6px;
+   background-color: black;
+   width: 70px;
+   margin: 8px auto;
+}
+.Pi{
+   display: table-cell;
+   vertical-align: middle;
+}
+.menu{
+   list-style: none;
+   position: fixed;
+   z-index: 10px;
+   cursor: pointer;
+   top:0px ;
+   width: 100%;
+   background:#ECECEC  ;
+   margin-top: 0px;
+}
+.links{
+   float: left;
+   font-size: 18px;
+   font-family: 'Xanh Mono', monospace;
+   padding-top: 5px;
+   padding-left: 9px;
+   padding-right:  9px;
+   padding-bottom:  5px;
+   text-decoration: none;
+}
+.links:hover{
+   font-size: 35px;
+   text-decoration: underline;
+}
+a{
+font-size: 20px;
+text-decoration: none;
+color:teal
+
+}
+#TRABAJO a{
+   text-decoration: underline !important;
+   color:mediumblue !important;
+}
+#CONTACTOS{
+   background: lightgrey;
+
+}
